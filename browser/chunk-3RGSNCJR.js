@@ -1,0 +1,1 @@
+import{Tb as r,Ub as s,Vb as e}from"./chunk-2R26EXCT.js";var o=s({source:"Auth",events:{login:r(),"login success":r(),"login failure":r(),register:r(),"register success":e(),"register failure":r(),logout:e(),"logout success":e()}});export{o as a};
