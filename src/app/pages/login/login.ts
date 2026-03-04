@@ -6,10 +6,11 @@ import { FormErrors } from "../../shared/components/form-errors";
 import { Store } from '@ngrx/store';
 import { authActions } from '../../shared/store/auth-action';
 import { toSignal } from '@angular/core/rxjs-interop';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-login',
-  imports: [Button, FormField, FormsModule, FormErrors],
+  imports: [Button, RouterLink, FormField, FormsModule, FormErrors],
   templateUrl: './login.html',
 })
 export class Login {
