@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "deploy": "ng build --configuration production --base-href https://rishisrivastava07.github.io/ecommerce-store/ && node -e \"require('fs').copyFileSync('dist/ecommerce-store/browser/index.html','dist/ecommerce-store/browser/404.html')\" && npx angular-cli-ghpages --dir=dist/ecommerce-store/browser"
+    "deploy": "ng build --configuration production --base-href https://rishisrivastava07.github.io/Ecommerce-store/ && node -e \"require('fs').copyFileSync('dist/ecommerce-store/browser/index.html','dist/ecommerce-store/browser/404.html')\" && npx angular-cli-ghpages --dir=dist/ecommerce-store/browser"
   },
   "prettier": {
     "printWidth": 100,
